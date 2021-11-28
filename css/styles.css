@@ -1,0 +1,210 @@
+:root {
+  --primary-white-color: #ffffff;
+  --primary-background-color: #e5e5e5;
+  --team-background-color: #f5f4fa;
+  --hero-background-color: #2f303a;
+  --button-logo-color: #2196f3;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --vector-color: #000000;
+  --translucent-white-color: #ffffff99;
+  --logo-first-color: #2196f3;
+  --portfolio-buttons-color: #f5f4fa;
+  --portfolio-buttontext-color: #212121;
+  --porfolio-hover-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/* Navigation header*/
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.logo-color {
+  color: var(--logo-first-color);
+}
+.tel {
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.mail {
+  color: var(--secondary-text-color);
+}
+.mail:hover,
+.mail:focus {
+  color: var(--button-logo-color);
+}
+
+.link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+.link:hover,
+.link:focus {
+  color: var(--button-logo-color);
+}
+
+/* Hero section*/
+
+.hero {
+  background-color: var(--hero-background-color);
+}
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero-button {
+  background-color: var(--button-logo-color);
+  color: var(--primary-white-color);
+  border: none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.titles h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.title p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.pictures h2,
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team {
+  background-color: var(--team-background-color);
+}
+.photo-person > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.photo-person > span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.footer {
+  background-color: var(--hero-background-color);
+}
+
+.logofoot {
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  font-family: "Raleway", sans-serif;
+}
+.contacts a {
+  color: var(--translucent-white-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.contacts p {
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--button-logo-color);
+}
+
+/* Portfolio block */
+.main {
+  background-color: var(--primary-background-color);
+}
+.buttons {
+  background-color: var(--portfolio-buttons-color);
+  border: none;
+  border-radius: 4px;
+  color: var(--portfolio-buttontext-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.buttons:hover,
+.buttons:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  background-color: var(--porfolio-hover-color);
+  color: var(--primary-white-color);
+}
+.projects p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
